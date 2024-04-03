@@ -1,0 +1,151 @@
+body {
+    background-color: #161724;
+}
+
+.panel {
+    width: 50%;
+    font-family: "Vazir FD-WOL", serif;
+    display: block;
+    height: 100vh;
+}
+
+.form {
+    border-radius: 9px;
+    background-color: #23243B;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+
+    width: 100%;
+    border-color: #4C4D6C;
+}
+
+.form label {
+    color: #ffffff;
+    margin: 30px auto;
+    height: 40px;
+    width: 70%;
+    line-height: 40px;
+    max-width: 680px;
+}
+
+.form label input {
+    background-color: transparent;
+    outline: none;
+    border: #4C4D6C solid 1px;
+    border-radius: 5px;
+    width: 65%;
+    float: left;
+    height: 100%;
+    color: white;
+    direction: rtl;
+    font-family: "Vazir FD-WOL", serif;
+    padding: 0 10px;
+}
+
+.form label:first-child {
+    margin-top: 50px;
+}
+
+
+.form label input::placeholder {
+
+}
+
+/* TABLE */
+.form table {
+    margin: 20px auto;
+    width: 65%;
+    border-radius: 6px;
+
+}
+
+.form table {
+    color: white;
+}
+
+.form table {
+    text-align: center;
+
+    border: 2px solid #4C4D6C;
+    border-spacing: 0;
+
+}
+
+.form th, td {
+
+    border: 1px solid #4C4D6C;
+}
+
+.form td:first-child,
+.form th:first-child {
+    width: 50%;
+}
+
+.form td,
+.form th {
+    width: 15%;
+}
+
+.form td:last-child,
+.form th:last-child {
+    width: 35%;
+}
+
+.form table input {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.05);
+    outline: none;
+    border: #4C4D6C solid 1px;
+    border-radius: 5px;
+    padding-block: 0;
+    padding-inline: 0;
+    width: calc(100% - 2px);
+    height: 100%;
+    color: white;
+    direction: rtl;
+    font-family: "Vazir FD-WOL", serif;
+    vertical-align: middle;
+
+}
+
+.form table tr:last-child td {
+    background-color: #4C4D6C;
+    cursor: pointer;
+
+}
+
+.form table tr:last-child td:hover {
+    background-color: #545485;
+
+}
+
+.form table tr:last-child td svg {
+    color: #23243B;
+    vertical-align: middle;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.export {
+    border-radius: 9px;
+    background-color: #61628C;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.export p {
+    color: white;
+    margin: auto;
+
+}
